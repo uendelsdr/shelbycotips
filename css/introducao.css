@@ -1,0 +1,47 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.introducao-conteudo {
+  align-self: center;
+}
+.introducao-conteudo h1 {
+  font: 700 4rem/1 "Roboto";
+  margin-left: 200px;
+}
+.introducao-conteudo h2 {
+  margin-left: 200px;
+  padding-bottom: 10px;
+  font: 500 2rem/1 "Poppins";
+}
+.introducao-conteudo p {
+  margin-left: 200px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  font: 400 1rem/1.2 "Roboto";
+}
+.introducao-conteudo a {
+  padding-left: 600px;
+}
+.introducao img {
+  object-fit: cover;
+  width: 100%;
+}
+.botao {
+  display: inline-block;
+  padding: 25px 40px;
+  background-color: black;
+  border-radius: 0px 4px 4px 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  font: 400 1.1rem/1 "Roboto";
+  color: white;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+.botao:hover {
+  box-shadow: 0 0 1em #111;
+}

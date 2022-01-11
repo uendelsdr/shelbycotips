@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+ul,
+li,
+a,
+h2,
+h1,
+h3,
+p {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}

@@ -1,0 +1,41 @@
+.sobre-bg {
+  background: #111;
+}
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+}
+.sobre-img {
+  grid-row: 4;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 200px;
+  padding-top: 30px;
+}
+.sobre h2 {
+  font: 700 4rem/1 "Roboto";
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-top: 70px;
+  text-transform: uppercase;
+  color: white;
+}
+.sobre p {
+  margin-top: 150px;
+  padding: 50px;
+  font: 400 1rem/1.2 "Poppins";
+  color: white;
+}
+.sobre-bg1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sobre-bg1 img {
+  object-fit: cover;
+  margin-top: 150px;
+  padding: 20px;
+  border-radius: 6px;
+}
